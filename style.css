@@ -1,0 +1,63 @@
+/* Estlos gerais*/
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.cabecalho {
+    text-align: center;
+    padding: 2rem;
+    background-color: #007bff;
+    color: #f4f4f4;
+    width: 100%;
+}
+
+.apresentacao {
+    max-width: 600px;
+    margin: auto;
+}
+
+/* estilps de seções */
+
+.conteudo-principal {
+    max-width: 900px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    border-radius: 8px;
+
+}
+
+.secao {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ddd;
+
+}
+
+.secao:last-child {
+    border-bottom: none;
+
+}
+
+h1,h2 {
+    color: black;
+}
+
+.rodape { 
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+}
+
